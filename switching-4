@@ -1,0 +1,28 @@
+en
+
+conf t
+
+vlan 19
+
+vlan 29
+
+in ra fa 0/3-4
+
+switchport mode access
+
+switchport access vlan 39
+
+in ra fa 0/1-2
+
+switchport mode access
+
+switchport access vlan 9
+
+
+in fa 0/5
+
+switchport mode trunk
+
+
+
+
